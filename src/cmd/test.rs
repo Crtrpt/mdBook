@@ -9,7 +9,7 @@ use std::path::PathBuf;
 // Create clap subcommand arguments
 pub fn make_subcommand() -> Command {
     Command::new("test")
-        .about("Tests that a book's Rust code samples compile")
+        .about("Tests that a book's Go code samples compile")
         // FIXME: --dest-dir is unused by the test command, it should be removed
         .arg_dest_dir()
         .arg_root_dir()
